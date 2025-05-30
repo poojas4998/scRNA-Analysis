@@ -15,6 +15,7 @@ save_plot_as_png_wide : saves the plot as a png that has a larger x axis.
 find_combined_markers_singletreatment: Runs Find Markers. Ensure you define all_combinations as for example 
                                       all_combinations <- unique(oIL9R_main$samples)[!unique(oIL9R_main$samples) %in%  c("9R")] 
                                       all_combinations <- unique(seurat_object$sample)[!unique(seurat_object$sample) %in%  c("PBS")]
+subset_genes: finds Significant differentially expressed genes, upregulated significant genes and downregulated significant genes and saves them in the folder. Also this result is later divided into the samples and saved in the folder.
 
 
 
