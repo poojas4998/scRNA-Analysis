@@ -43,10 +43,10 @@ plot_venn_diagram: Plotting Venn Diagram (Upto 4)
 
 generate_venn_intersections: Finding the genes that are intersecting
 
+heatmap_rudimentary doesnt have a function for a heatmap. It has the heatmap and is in a loop/vector. (Generates multiple heatmaps based on  for example sample vs pbs which contains the top genes and its expression in each cluster)
 
 
-
-(Addtional Updates which could be made - Combining plot_venn_diagram and generate_venn_intersections)
+(Addtional Updates which could be made - Combining plot_venn_diagram and generate_venn_intersections , could make the heatmap_rudimentary into a function)
 
 # Load packages
 suppressPackageStartupMessages(library(dplyr))
