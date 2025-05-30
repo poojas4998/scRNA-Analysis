@@ -31,6 +31,8 @@ create_violin_plot : All violin plots of interest in a pdf file
 
 plot_volcano_scrna: Volcano plots rendered
 
+perform_go_enrichment: Gene Ontology Enrichment (provide seurat object and marker data) - Outdated
+
 # Load packages
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(purrr))
