@@ -4,7 +4,7 @@ scRNA sequencing analysis
 Here I will share functions I made to get certain type of plots through Seurat. 
 
 Here are a few changes i made to the dataset.
-I use sample not "samples" or "treatments" as a column.
+I use sample not "samples" or "treatments" as a column. Rename columns as this to make the following functions to run.
 
 After annotation, i make a column in the metadata 
 seurat_object$cell_annotation <- Idents(seurat_object)
@@ -12,6 +12,11 @@ seurat_object$cell_annotation <- Idents(seurat_object)
 The functions are the following:
 save_plot_as_png : saves the plots as a png 
 save_plot_as_png_wide : saves the plot as a png that has a larger x axis.
+find_combined_markers_singletreatment: Runs Find Markers. Ensure you define all_combinations as for example 
+                                      all_combinations <- unique(oIL9R_main$samples)[!unique(oIL9R_main$samples) %in%  c("9R")] 
+                                      all_combinations <- unique(seurat_object$sample)[!unique(seurat_object$sample) %in%  c("PBS")]
+
+
 
 # Load packages
 suppressPackageStartupMessages(library(dplyr))
