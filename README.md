@@ -16,6 +16,8 @@ find_combined_markers_singletreatment: Runs Find Markers. Ensure you define all_
                                       all_combinations <- unique(oIL9R_main$samples)[!unique(oIL9R_main$samples) %in%  c("9R")] 
                                       all_combinations <- unique(seurat_object$sample)[!unique(seurat_object$sample) %in%  c("PBS")]
 subset_genes: finds Significant differentially expressed genes, upregulated significant genes and downregulated significant genes and saves them in the folder. Also this result is later divided into the samples and saved in the folder.
+create_dot_plot: Creates dotplots which help in annotation. By default if marker genes are not presented it shows the genes found in the immunodictionary paper presented by the cui lab: https://www.nature.com/articles/s41586-023-06816-9#data-availability
+
 
 
 
