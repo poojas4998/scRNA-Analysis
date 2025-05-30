@@ -35,6 +35,8 @@ perform_go_enrichment: Gene Ontology Enrichment (provide seurat object and marke
 
 perform_single_go_enrichment: Gene Ontology Enrichment (provide dataframe) (Updated)
 
+plot_deg_distribution_by_condition: DEG Distribution ggplot
+
 # Load packages
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(purrr))
