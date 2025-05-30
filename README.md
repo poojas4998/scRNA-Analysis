@@ -33,6 +33,8 @@ plot_volcano_scrna: Volcano plots rendered
 
 perform_go_enrichment: Gene Ontology Enrichment (provide seurat object and marker data) - Outdated
 
+perform_single_go_enrichment: Gene Ontology Enrichment (provide dataframe) (Updated)
+
 # Load packages
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(purrr))
