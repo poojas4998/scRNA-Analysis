@@ -25,6 +25,8 @@ create_dot_plot: Creates dotplots which help in annotation. By default if marker
 
 plot_dotplot_multimodal_gd_gex: fancy way to plot a dotpot based on https://www.nature.com/articles/s41590-023-01710-y  (Figure 2 A)
 
+annotate_and_save_seurat: Add the cluster ids with the annotation and save the new seurat object.
+
 plot_feature_plots_to_pdf: All featureplots of interest in a pdf file
 
 create_violin_plot : All violin plots of interest in a pdf file
