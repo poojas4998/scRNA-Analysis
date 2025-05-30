@@ -29,6 +29,8 @@ plot_feature_plots_to_pdf: All featureplots of interest in a pdf file
 
 create_violin_plot : All violin plots of interest in a pdf file
 
+plot_volcano_scrna: Volcano plots rendered
+
 # Load packages
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(purrr))
