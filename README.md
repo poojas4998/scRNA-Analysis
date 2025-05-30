@@ -39,6 +39,8 @@ perform_single_go_enrichment: Gene Ontology Enrichment (provide dataframe) (Upda
 
 plot_deg_distribution_by_condition: DEG Distribution ggplot
 
+plot_venn_diagram: Plotting Venn Diagram (Upto 4)
+
 # Load packages
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(purrr))
