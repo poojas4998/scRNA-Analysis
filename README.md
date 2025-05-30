@@ -27,6 +27,8 @@ plot_dotplot_multimodal_gd_gex: fancy way to plot a dotpot based on https://www.
 
 plot_feature_plots_to_pdf: All featureplots of interest in a pdf file
 
+create_violin_plot : All violin plots of interest in a pdf file
+
 # Load packages
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(purrr))
